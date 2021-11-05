@@ -1,0 +1,188 @@
+/*
+	Date created: 5 Nov, 2021;
+	Date modified: 5 Nov, 2021;
+	Author: greatsilas23;
+*/
+body,
+{
+	width: 100%;
+	height: 100%;
+}
+. .mainContainer
+{
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+.myHeader
+{
+	width: 100%;
+	height: 50px;
+	background-color: red;
+	z-index: 0;
+}
+.mySubContainer
+{
+	width: 100%;
+	height: 472px;
+	z-index: 0;
+}
+.myLeftPane
+{
+	float: left;
+	width: 30%;
+	height: 490px;
+	background-color: pink;
+	z-index: 0;
+}
+.myContent
+{
+	float: right;
+	width: 70%;
+	height: 490px;
+	background-color: green;
+	z-index: 0;
+}
+.myFooter
+{
+	width: 100%;
+	height: 50px;
+	background-color: red;
+	z-index: 0;
+}
+.slidingMenuButton
+{
+	height: 30px;
+	width: 30px;
+	background-color: rgba(0, 0, 0, 0);
+	padding: 10px;
+}
+.slidingMenuButton:hover
+{
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.flexify
+{
+	display:  flex;
+}
+.horiz
+{	
+	flex-direction: row;
+}
+.vertic
+{
+	flex-direction: column;
+}
+.slideInContainer
+{
+	width: 20%;
+	height: 600px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: grey;
+	justify-content: safe center;
+	align-items: center;
+	z-index: 2;
+	display: none;
+}
+.opaqueBackground
+{
+	width: 100%;
+	height: 600px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	background-color: rgba(5, 5, 5, 0.5);
+	display: none;
+}
+.buttonNav
+{
+	width: 140px;
+	height: 50px;
+	outline: none;
+	margin: 5px;
+	border-radius: 10px;
+	background-color: blue;
+	color: white;
+}
+.horizontalSeparator
+{
+	width: 40%;
+	border: solid 3px black;
+}
+.cardSeparator
+{
+	width: 20%;
+	border: solid 1px black;
+}
+.cardItem
+{
+	max-width: 20%;
+	min-width: 20%;
+	height: 150px;
+	border-radius: 10px;
+	background-color: yellow;
+	box-shadow: 10px 10px 10px black;
+	margin: 10px;
+}
+.cardItem:hover
+{
+	box-shadow: 20px 20px 20px black;
+}
+.contentCategory1
+{
+	width: 65%;
+	height: 170px;
+	background-color: white;
+}
+.popupItem
+{
+	width: 500px;
+	height: 200px;
+	position: absolute;
+	top: 250px;
+	left: 400px;
+	background-color: purple;
+	z-index: 2;
+	border-radius: 10px;
+	display: none;
+}
+.scrollHoriz
+{
+	overflow-x: scroll;
+	overflow-y: hide;
+	scroll-behavior: smooth;
+	scrollbar-width: none;
+}
+.quickTargets
+{
+	width: 100px;
+	height: 50px;
+	margin-right: 10px;
+	background-color: red;
+	position: absolute;
+	top: 7px;
+	left: 0px;
+	transition: all 0.9s ease-in-out;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.quickTargets:hover{
+	box-shadow: 10px 10px 10px black;
+}
+.targetsContainer
+{
+	width: 400px;
+	height: 50px;
+	position: absolute;
+	left: 300px;
+	top: 1px;
+}
+.myTbl, tr, td, th
+{
+	border: solid 2px black;
+	border-collapse: collapse;
+}
